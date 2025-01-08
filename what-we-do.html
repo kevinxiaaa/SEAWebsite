@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="styles.css">
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="container">
+        <div class="header-container">
             <h1>Student Empowerment Association</h1>
             <nav>
                 <ul>
@@ -26,38 +25,39 @@
         </div>
     </header>
 
-    <main>
-        <section class="section">
-            <div class="container">
-                <h2>What We Do</h2>
-                <p>At the Student Empowerment Association, we believe in unlocking the potential of every student through impactful initiatives:</p>
+    <!-- Banner -->
+    <section class="banner" style="background-image: url('assets/banners/what-we-do-banner.jpg');">
+        <div class="banner-content">
+            <h2>What We Do</h2>
+        </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <p>Home / What We Do</p>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <!-- Left Content -->
+            <div class="left-content">
+                <h2>Our Mission</h2>
+                <p>At the Student Empowerment Association, we offer programs and resources to help students develop leadership skills, grow professionally, and contribute positively to their communities.</p>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="right-sidebar">
                 <ul>
-                    <li><strong>Leadership Training:</strong> Programs to build confidence and decision-making skills.</li>
-                    <li><strong>Community Service:</strong> Projects that allow students to give back while learning.</li>
-                    <li><strong>Workshops & Seminars:</strong> Interactive sessions to inspire growth and innovation.</li>
+                    <li><a href="#">Leadership Training</a></li>
+                    <li><a href="#">Mentorship Programs</a></li>
+                    <li><a href="#">Community Projects</a></li>
                 </ul>
             </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h2>Impact Stories</h2>
-                <div class="card-container">
-                    <div class="card">
-                        <img src="assets/event1.jpg" alt="Workshop">
-                        <h3>Leadership Workshop</h3>
-                        <p>“The workshop transformed my confidence level. Now, I’m leading a team at my university!”</p>
-                    </div>
-                    <div class="card">
-                        <img src="assets/event2.jpg" alt="Community Project">
-                        <h3>Community Project</h3>
-                        <p>“Participating in the cleanup drive was fulfilling. It taught me the power of teamwork.”</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>© 2025 Student Empowerment Association | All rights reserved.</p>
     </footer>

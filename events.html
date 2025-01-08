@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="styles.css">
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="container">
+        <div class="header-container">
             <h1>Student Empowerment Association</h1>
             <nav>
                 <ul>
@@ -26,26 +25,44 @@
         </div>
     </header>
 
-    <main>
-        <section class="section">
-            <div class="container">
+    <!-- Banner -->
+    <section class="banner" style="background-image: url('assets/banners/events-banner.jpg');">
+        <div class="banner-content">
+            <h2>Events</h2>
+        </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <p>Home / Events</p>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <!-- Left Content -->
+            <div class="left-content">
                 <h2>Upcoming Events</h2>
-                <div class="card-container">
-                    <div class="card">
-                        <img src="assets/event1.jpg" alt="Leadership Workshop">
-                        <h3>Leadership Workshop</h3>
-                        <p>Date: February 15, 2025<br>Location: Main Auditorium</p>
-                    </div>
-                    <div class="card">
-                        <img src="assets/event2.jpg" alt="Community Cleanup">
-                        <h3>Community Cleanup</h3>
-                        <p>Date: March 10, 2025<br>Location: Riverside Park</p>
-                    </div>
-                </div>
+                <p>Discover exciting workshops, seminars, and community outreach activities that empower students to lead and connect with their peers.</p>
+                <ul>
+                    <li><strong>Leadership Workshop:</strong> Learn to lead with confidence (Feb 15, 2025).</li>
+                    <li><strong>Community Cleanup:</strong> Make a difference in your community (March 10, 2025).</li>
+                    <li><strong>Networking Event:</strong> Build your professional network (April 5, 2025).</li>
+                </ul>
             </div>
-        </section>
+
+            <!-- Right Sidebar -->
+            <div class="right-sidebar">
+                <ul>
+                    <li><a href="#">Sign Up for Events</a></li>
+                    <li><a href="#">Past Events Gallery</a></li>
+                    <li><a href="#">Event FAQs</a></li>
+                </ul>
+            </div>
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>© 2025 Student Empowerment Association | All rights reserved.</p>
     </footer>
