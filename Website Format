@@ -1,0 +1,26 @@
+Project/
+    index.html
+    what-we-do.html
+    our-goals.html
+    events.html
+    volunteer.html
+    resources.html
+    contact.html
+    styles.css
+    assets/
+        banners/
+            home-banner.jpg
+            what-we-do-banner.jpg
+            our-goals-banner.jpg
+            events-banner.jpg
+            volunteer-banner.jpg
+            resources-banner.jpg
+            contact-banner.jpg
+        icons/
+            icon-email.png
+            icon-phone.png
+            icon-location.png
+
+
+This is what the website is suppose to look like please 
+make changes to the photo section and update it thanks!

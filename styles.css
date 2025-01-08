@@ -209,3 +209,65 @@ footer {
         font-size: 2rem;
     }
 }
+/* Team Section Styles */
+.team-heading {
+    font-size: 1.8rem;
+    color: #007a5e;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.team-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and description */
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.team-section:hover {
+    transform: translateY(-5px); /* Adds a hover effect */
+}
+
+.team-photo {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-info {
+    flex: 1; /* Allow text to take up remaining space */
+}
+
+.team-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #007a5e;
+    text-transform: capitalize;
+}
+
+.team-info p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Add some responsiveness */
+@media (max-width: 768px) {
+    .team-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-photo {
+        max-width: 120px;
+    }
+}
+
